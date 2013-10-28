@@ -473,7 +473,7 @@ class Magento
                                 return false;
 
                         $temp = array();
-                        $temp['productId'] = $productID;
+                        $temp['productId'] = $productId;
                         $temp['productIdentifierType'] = $productIdentifierType;
 
                         return $this->mQuery("catalog_product.delete", $temp);
